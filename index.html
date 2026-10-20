@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StreamX: premium media player for Android TV</title>
+<meta name="description" content="StreamX is a premium media player for Android TV. Bring your own playlists and enjoy a fast, polished 10-foot interface.">
+<meta name="copyright" content="© 2026 StreamX. All rights reserved.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #000; color: #e8e8f0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding: 8px 20px; border-bottom: 1px solid #1c1c28; background: rgba(5,5,10,.95); position: sticky; top: 0; z-index: 5; }
+  nav .brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 1.1rem; text-decoration: none; border: 0; }
+  nav .brand img { width: 34px; height: 34px; }
+  nav .links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+  nav .links a { color: #c9c4ff; text-decoration: none; font-weight: 600; font-size: .95rem; padding: 6px 0; }
+  nav .links a:hover { color: #fff; }
+  nav .links a.on { color: #fff; border-bottom: 2px solid #7c5cff; }
+  @media (max-width: 700px) { nav { justify-content: center; } }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 80px; }
+  .center { text-align: center; }
+  .logo { width: min(340px, 80%); height: auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 8px; }
+  h2 { font-size: 1.3rem; margin: 2.2em 0 .6em; padding-bottom: 6px; border-bottom: 1px solid #23233a; }
+  p.lead { color: #b4b4c8; max-width: 720px; margin: 0 auto 24px; }
+  .note { background: #12121c; border: 1px solid #2a2a3c; border-radius: 12px; padding: 12px 16px; max-width: 720px; margin: 0 auto 28px; color: #c8c8da; font-size: .95rem; text-align: left; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 36px; }
+  .btn { display: inline-block; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; background: #7c5cff; color: #fff; }
+  .btn.alt { background: #1b1b2a; color: #d8d4ff; border: 1px solid #34344a; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 14px; padding: 16px 18px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.05rem; color: #d8d4ff; }
+  .card ul { margin: 0; padding-left: 1.1em; color: #c8c8da; font-size: .95rem; }
+  .card li { margin: 4px 0; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  figure { margin: 0; }
+  figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid #1e1e2c; display: block; }
+  figcaption { color: #a8a8bd; font-size: .9rem; padding: 6px 2px 0; }
+  .telegram { text-align: center; margin-top: 36px; }
+  .telegram img { width: 200px; height: auto; border-radius: 12px; }
+  a { color: #9b8cff; }
+  footer { margin-top: 48px; color: #8888a0; font-size: .9rem; text-align: center; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav><a class="brand" href="index.html"><img src="assets/logo-icon.png" alt="">StreamX</a><div class="links"><a href="index.html" class="on">Home</a><a href="index.html#features">Features</a><a href="screenshots.html">Screenshots</a><a href="privacy-policy.html">Privacy</a><a href="delete-account.html">Delete data</a><a href="https://t.me/Stre4mX">Telegram</a><a href="https://github.com/varunmyneni/StreamX-Public/releases">Download</a></div></nav>
+<main>
+<div class="center">
+  <img class="logo" src="assets/logo-text.png" alt="StreamX">
+  <h1>A premium media player for Android TV</h1>
+  <p class="lead">A fast, polished 10-foot interface for your own playlists and streams. Add your playlist or provider login and StreamX turns it into a Netflix-style experience, with artwork, trailers, cast, trending lists and suggestions for every title.</p>
+  <div class="note"><strong>StreamX is a media player only.</strong> It does not provide any content, channels or streams. You connect the playlists and services you already have.</div>
+  <div class="buttons">
+    <a class="btn" href="https://github.com/varunmyneni/StreamX-Public/releases">Download for Android TV</a>
+    <a class="btn alt" href="screenshots.html">See all screenshots</a>
+    <a class="btn alt" href="https://t.me/Stre4mX">Join on Telegram</a>
+  </div>
+</div>
+<div class="grid">
+  <figure><a href="screenshots/home-dashboard-v1.0.png"><img src="screenshots/home-dashboard-v1.0.png" alt="Movies home" loading="lazy"></a></figure>
+  <figure><a href="screenshots/movie-detail-v1.0.png"><img src="screenshots/movie-detail-v1.0.png" alt="Movie detail" loading="lazy"></a></figure>
+  <figure><a href="screenshots/series-detail-v1.0.png"><img src="screenshots/series-detail-v1.0.png" alt="Series detail" loading="lazy"></a></figure>
+  <figure><a href="screenshots/trending-v1.0.png"><img src="screenshots/trending-v1.0.png" alt="Trending and best" loading="lazy"></a></figure>
+</div>
+<p class="center"><a href="screenshots.html">More screenshots →</a></p>
+<h2 id="features">What StreamX offers</h2>
+<div class="cards">
+<div class="card"><h3>Playlists and streams</h3><ul><li>M3U / M3U8 playlists with extended tags, logos, groups and catch-up</li><li>Xtream login for live, movies and series with full metadata</li><li>Stalker / MAG portals with automatic session handling and quality selection</li><li>Jellyfin servers (beta)</li><li>Several sources side by side, with an option to combine them</li></ul></div>
+<div class="card"><h3>Watching</h3><ul><li>Media3 / ExoPlayer engine: HLS, DASH and progressive, subtitle and audio-track selection, DRM-protected streams (Widevine and ClearKey)</li><li>Continue Watching with per-movie and per-episode resume, progress bars and watched ticks</li><li>EPG with XMLTV now/next and a live mini-player</li><li>Live pause and rewind (beta, off by default)</li><li>Subtitles from your own OpenSubtitles account (your own account and key; nothing is shared)</li><li>Optional watch-history trackers: link your own Trakt, Simkl or AniList account. Off until you link one, and you can pause it any time</li><li>Instant search across live channels and the library</li></ul></div>
+<div class="card"><h3>Discover</h3><ul><li>Trending now, Best of all time, Popular, Top rated and New, by language, matched to what is in your library</li><li>Cast with photos, trailers, ratings and plot for every title, from TMDB. Bring your own TMDB key if you prefer</li><li>More like this that follows the film's own language, so a Telugu film suggests Telugu films</li><li>Sports tab with live scores and fixtures</li></ul></div>
+<div class="card"><h3>Experience</h3><ul><li>Full-width rotating featured banner, configurable rows and poster grids that adapt to 720p / 1080p / 4K</li><li>D-pad-first navigation designed for the TV remote, with customisable remote buttons</li><li>Separate viewing profiles with their own favourites and Watch Later, plus a parental-controls PIN</li><li>Accent colour presets</li><li>Instant startup; content refreshes silently in the background</li><li>Optional encrypted cloud sync: your sources, watch history and settings follow your account. The app is fully usable without an account</li></ul></div>
+<div class="card"><h3>Privacy and control</h3><ul><li>Fully usable without an account; everything stays on your device</li><li>Cloud sync is optional and encrypted before it leaves your TV</li><li>Delete your account and data from inside the app (Profile menu → Delete Account) or by email</li><li>Bring-your-own keys for TMDB and OpenSubtitles, so requests count against your accounts only</li></ul></div>
+<div class="card"><h3>Requirements</h3><ul><li>Android TV, Google TV or Fire TV</li><li>Android 6.0 (API 23) or newer</li><li>Designed for the 10-foot / D-pad experience</li><li>The Play Store build and the sideload APK are signed with different keys, so pick one and stick with it</li></ul></div>
+</div>
+<h2>Download</h2>
+<p><strong>Google Play:</strong> coming soon.<br>
+<strong>Sideload (APK):</strong> grab the latest <code>.apk</code> from the <a href="https://github.com/varunmyneni/StreamX-Public/releases">Releases</a> page and install it on your Android TV device.</p>
+<div class="telegram">
+  <h2 style="border:0">Join the community</h2>
+  <p>Updates, release notes and discussion live on Telegram. Join the channel for news, and use the linked group to ask questions, report problems and share ideas.</p>
+  <a href="https://t.me/Stre4mX"><img src="assets/telegram-channel.png" alt="Scan to join the StreamX Telegram channel"></a>
+  <p><a href="https://t.me/Stre4mX">t.me/Stre4mX</a></p>
+</div>
+  <footer>
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="delete-account.html">Delete your account and data</a> ·
+    <a href="license.html">Licence</a> ·
+    <a href="https://github.com/varunmyneni/StreamX-Public/releases">Releases</a><br>
+    Questions: <a href="mailto:5xstreamx@gmail.com">5xstreamx@gmail.com</a><br>
+    <strong>© 2026 StreamX. All rights reserved.</strong> StreamX is proprietary software, not open source. Copying, cloning, mirroring, redistributing or reverse engineering the app, its code, name, logo, artwork or these pages is not permitted. See the <a href="license.html">Licence</a>.<br>
+    StreamX is a media player only. It does not provide, host, index, bundle or resell any media, channels, streams or subscriptions. All product names, logos and brands that may appear in user-supplied content belong to their respective owners.<br>
+    This product uses the TMDB API but is not endorsed or certified by TMDB. Weather by Open-Meteo.
+  </footer>
+</main>
+</body>
+</html>
