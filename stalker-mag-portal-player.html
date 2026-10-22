@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stalker &amp; MAG Portal Player for Android TV | IPTV</title>
+<meta name="description" content="Watch a Stalker or MAG portal on Android TV with StreamX. Enter your portal URL and MAC address; sessions and quality choice are handled automatically.">
+<meta name="keywords" content="Stalker portal player, MAG portal Android TV, MAG player, Stalker middleware player, MAC address portal player, IPTV portal player">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="canonical" href="https://varunmyneni.github.io/StreamX-Public/stalker-mag-portal-player.html">
+<meta name="theme-color" content="#000000">
+<meta name="copyright" content="© 2026 StreamX. All rights reserved.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="StreamX">
+<meta property="og:title" content="Stalker &amp; MAG Portal Player for Android TV | IPTV">
+<meta property="og:description" content="Watch a Stalker or MAG portal on Android TV with StreamX. Enter your portal URL and MAC address; sessions and quality choice are handled automatically.">
+<meta property="og:url" content="https://varunmyneni.github.io/StreamX-Public/stalker-mag-portal-player.html">
+<meta property="og:image" content="https://varunmyneni.github.io/StreamX-Public/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="StreamX, a media player for Android TV and Google TV">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stalker &amp; MAG Portal Player for Android TV | IPTV">
+<meta name="twitter:description" content="Watch a Stalker or MAG portal on Android TV with StreamX. Enter your portal URL and MAC address; sessions and quality choice are handled automatically.">
+<meta name="twitter:image" content="https://varunmyneni.github.io/StreamX-Public/assets/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://varunmyneni.github.io/StreamX-Public/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://varunmyneni.github.io/StreamX-Public/index.html#guides"}, {"@type": "ListItem", "position": 3, "name": "Stalker / MAG portal player", "item": "https://varunmyneni.github.io/StreamX-Public/stalker-mag-portal-player.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Stalker & MAG Portal Player for Android TV | IPTV", "url": "https://varunmyneni.github.io/StreamX-Public/stalker-mag-portal-player.html", "description": "Watch a Stalker or MAG portal on Android TV with StreamX. Enter your portal URL and MAC address; sessions and quality choice are handled automatically.", "isPartOf": {"@id": "https://varunmyneni.github.io/StreamX-Public/#site"}, "about": {"@id": "https://varunmyneni.github.io/StreamX-Public/#app"}, "inLanguage": "en", "dateModified": "2026-10-20"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a Stalker or MAG portal?", "acceptedAnswer": {"@type": "Answer", "text": "A portal is an address your provider gives you that works with a MAC address, the way a set-top box does. StreamX can connect to it with the portal URL and MAC address."}}, {"@type": "Question", "name": "Which details do I enter?", "acceptedAnswer": {"@type": "Answer", "text": "The Portal URL and the MAC address registered with your provider. A Device ID is optional and only needed for portals that require it."}}, {"@type": "Question", "name": "Does StreamX provide a portal?", "acceptedAnswer": {"@type": "Answer", "text": "No. StreamX is a player only and includes no portals, channels or content."}}]}</script>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #000; color: #e8e8f0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding: 8px 20px; border-bottom: 1px solid #1c1c28; background: rgba(5,5,10,.95); position: sticky; top: 0; z-index: 5; }
+  nav .brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 1.1rem; text-decoration: none; border: 0; }
+  nav .brand img { width: 34px; height: 34px; }
+  nav .links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+  nav .links a { color: #c9c4ff; text-decoration: none; font-weight: 600; font-size: .95rem; padding: 6px 0; }
+  nav .links a:hover { color: #fff; }
+  nav .links a.on { color: #fff; border-bottom: 2px solid #7c5cff; }
+  @media (max-width: 700px) { nav { justify-content: center; } }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 80px; }
+  .center { text-align: center; }
+  .logo { width: min(340px, 80%); height: auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 8px; }
+  h2 { font-size: 1.3rem; margin: 2.2em 0 .6em; padding-bottom: 6px; border-bottom: 1px solid #23233a; }
+  p.lead { color: #b4b4c8; max-width: 720px; margin: 0 auto 24px; }
+  .note { background: #12121c; border: 1px solid #2a2a3c; border-radius: 12px; padding: 12px 16px; max-width: 720px; margin: 0 auto 28px; color: #c8c8da; font-size: .95rem; text-align: left; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 36px; }
+  .btn { display: inline-block; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; background: #7c5cff; color: #fff; }
+  .btn.alt { background: #1b1b2a; color: #d8d4ff; border: 1px solid #34344a; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 14px; padding: 16px 18px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.05rem; color: #d8d4ff; }
+  .card ul { margin: 0; padding-left: 1.1em; color: #c8c8da; font-size: .95rem; }
+  .card li { margin: 4px 0; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  figure { margin: 0; }
+  figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid #1e1e2c; display: block; }
+  figcaption { color: #a8a8bd; font-size: .9rem; padding: 6px 2px 0; }
+  .telegram { text-align: center; margin-top: 36px; }
+  .telegram img { width: 200px; height: auto; border-radius: 12px; }
+  a { color: #9b8cff; }
+  footer { margin-top: 48px; color: #8888a0; font-size: .9rem; text-align: center; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+  .left p.lead, .left .note { margin-left: 0; margin-right: 0; max-width: 760px; }
+  .crumbs { color: #8888a0; font-size: .85rem; margin: 0 0 14px; }
+  .crumbs a { color: #9b8cff; text-decoration: none; }
+  .prose p, .prose li { color: #cfcfe0; }
+  .prose h2 { margin-top: 1.8em; }
+  .prose ol, .prose ul { padding-left: 1.3em; }
+  .steps li { margin: 8px 0; }
+  details { background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; color: #e8e8f0; }
+  details p { margin: 10px 0 2px; color: #cfcfe0; }
+  .pill { display: inline-block; background: #14141f; border: 1px solid #2a2a3c; color: #c9c4ff; border-radius: 999px; padding: 4px 12px; margin: 4px 6px 4px 0; font-size: .88rem; text-decoration: none; }
+  .guides a.gcard { display: block; background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 14px; padding: 14px 18px; text-decoration: none; color: #e8e8f0; }
+  .guides a.gcard span { display: block; color: #a8a8bd; font-size: .9rem; font-weight: 400; margin-top: 4px; }
+  .guides a.gcard strong { color: #d8d4ff; }
+</style>
+</head>
+<body>
+<nav aria-label="Main"><a class="brand" href="index.html"><img src="assets/logo-icon.png" width="34" height="34" alt="">StreamX</a><div class="links"><a href="index.html">Home</a><a href="index.html#features">Features</a><a href="index.html#guides">Guides</a><a href="setup-guide-iptv-player.html">Setup</a><a href="screenshots.html">Screenshots</a><a href="privacy-policy.html">Privacy</a><a href="delete-account.html">Delete data</a><a href="https://t.me/Stre4mX">Telegram</a><a href="https://github.com/varunmyneni/StreamX-Public/releases">Download</a></div></nav>
+<main>
+<div class="left">
+<p class="crumbs"><a href="index.html">Home</a> › <a href="index.html#guides">Guides</a> › Stalker / MAG portal player</p>
+<h1>Stalker and MAG portal player for Android TV</h1>
+<p class="lead">Use the portal address and MAC address from your provider and StreamX connects like a set-top box, with automatic session handling and quality selection.</p>
+<div class="note"><strong>StreamX is a media player only.</strong> It does not provide any channels, movies, series or streams. You add a playlist, portal or login that you already have the right to use.</div>
+<div class="prose">
+<h2>How to add a MAG portal</h2>
+<ol class="steps">
+<li>Open StreamX and open the <strong>Profile</strong> menu (your avatar, top right).</li><li>Choose <strong>Manage Sources</strong>, then add a new source.</li>
+<li>Under <strong>Source Type</strong>, select <strong>MAG Portal</strong>.</li>
+<li>Enter the <strong>Portal URL</strong>, for example <code>http://portal.tv/c/</code>.</li>
+<li>Enter the <strong>MAC Address</strong> registered with your provider, in the form <code>00:1A:79:xx:xx:xx</code>.</li>
+<li>Most portals work with the built-in defaults. Only if your portal requires specific device details, open <strong>Advanced</strong> and fill in the optional Device ID and related fields.</li>
+<li>Optionally add an <a href="epg-xmltv-guide.html">EPG URL</a>, then save and sync.</li>
+</ol>
+<h2>What you get</h2>
+<ul>
+<li>Live channels and video on demand from the portal, with the StreamX interface on top.</li>
+<li>Automatic session handling, so you are not signed out in the middle of a programme.</li>
+<li>Quality selection when the portal offers several streams.</li>
+<li>Favourites, search, profiles and Continue Watching, the same as any other source.</li>
+</ul>
+</div>
+<div class="buttons"><a class="btn" href="https://github.com/varunmyneni/StreamX-Public/releases">Download StreamX for Android TV</a><a class="btn alt" href="screenshots.html">See screenshots</a><a class="btn alt" href="https://t.me/Stre4mX">Join on Telegram</a></div><h2>More guides</h2><div class="cards guides"><a class="gcard" href="iptv-player-android-tv.html"><strong>Media player for Android TV</strong><span>What StreamX does, and how it plays your own playlists on Android TV and Google TV.</span></a><a class="gcard" href="m3u-playlist-player.html"><strong>M3U playlist player</strong><span>Add an M3U or M3U8 playlist link and watch it with logos, groups, EPG and catch-up.</span></a><a class="gcard" href="xtream-codes-player.html"><strong>Xtream Codes player</strong><span>Sign in with your Xtream Codes server, username and password for live TV, movies and series.</span></a><a class="gcard" href="epg-xmltv-guide.html"><strong>EPG / XMLTV TV guide</strong><span>Add an XMLTV guide link for now and next information and a live mini player.</span></a><a class="gcard" href="setup-guide-iptv-player.html"><strong>Set up StreamX</strong><span>Add sources, a TV guide, TMDB, subtitles and watch trackers, step by step.</span></a><a class="gcard" href="install-iptv-player-apk.html"><strong>Install the StreamX APK</strong><span>Step-by-step: install the StreamX APK on Android TV, Google TV, Chromecast with Google TV or Fire TV.</span></a></div><h2>Frequently asked questions</h2>
+<details><summary>What is a Stalker or MAG portal?</summary><p>A portal is an address your provider gives you that works with a MAC address, the way a set-top box does. StreamX can connect to it with the portal URL and MAC address.</p></details>
+<details><summary>Which details do I enter?</summary><p>The Portal URL and the MAC address registered with your provider. A Device ID is optional and only needed for portals that require it.</p></details>
+<details><summary>Does StreamX provide a portal?</summary><p>No. StreamX is a player only and includes no portals, channels or content.</p></details>
+
+</div>
+  <footer>
+    <div class="guides-links">Guides: <a href="iptv-player-android-tv.html">Media player for Android TV</a> · <a href="m3u-playlist-player.html">M3U playlist player</a> · <a href="xtream-codes-player.html">Xtream Codes player</a> · <a href="stalker-mag-portal-player.html">Stalker / MAG portal player</a> · <a href="epg-xmltv-guide.html">EPG / XMLTV TV guide</a> · <a href="install-iptv-player-apk.html">Install the StreamX APK</a> · <a href="setup-guide-iptv-player.html">Set up StreamX</a></div><br>
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="delete-account.html">Delete your account and data</a> ·
+    <a href="license.html">Licence</a> ·
+    <a href="screenshots.html">Screenshots</a> ·
+    <a href="https://github.com/varunmyneni/StreamX-Public/releases">Releases</a><br>
+    Questions: <a href="mailto:5xstreamx@gmail.com">5xstreamx@gmail.com</a><br>
+    <strong>© 2026 StreamX. All rights reserved.</strong> StreamX is proprietary software, not open source. Copying, cloning, mirroring, redistributing or reverse engineering the app, its code, name, logo, artwork or these pages is not permitted. See the <a href="license.html">Licence</a>.<br>
+    StreamX is a media player only. It does not provide, host, index, bundle or resell any media, channels, streams or subscriptions. All product names, logos and brands that may appear in user-supplied content belong to their respective owners.<br>
+    This product uses the TMDB API but is not endorsed or certified by TMDB. Weather by Open-Meteo.
+  </footer>
+</main>
+</body>
+</html>

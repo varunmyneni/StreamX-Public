@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPTV Player Setup Guide: Add Sources, TMDB, Subtitles, Trackers | StreamX</title>
+<meta name="description" content="Step-by-step StreamX setup for Android TV: add an M3U, Xtream Codes or Stalker/MAG source, EPG, a free TMDB key, OpenSubtitles and Trakt, Simkl or AniList trackers.">
+<meta name="keywords" content="IPTV player setup, how to set up IPTV player, add M3U playlist Android TV, Xtream Codes setup, Stalker portal setup, MAC address portal, EPG XMLTV setup, TMDB API key, OpenSubtitles API key, Trakt Simkl AniList sync, IPTV player Google TV">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="canonical" href="https://varunmyneni.github.io/StreamX-Public/setup-guide-iptv-player.html">
+<meta name="theme-color" content="#000000">
+<meta name="copyright" content="© 2026 StreamX. All rights reserved.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="StreamX">
+<meta property="og:title" content="IPTV Player Setup Guide: Add Sources, TMDB, Subtitles, Trackers | StreamX">
+<meta property="og:description" content="Step-by-step StreamX setup for Android TV: add an M3U, Xtream Codes or Stalker/MAG source, EPG, a free TMDB key, OpenSubtitles and Trakt, Simkl or AniList trackers.">
+<meta property="og:url" content="https://varunmyneni.github.io/StreamX-Public/setup-guide-iptv-player.html">
+<meta property="og:image" content="https://varunmyneni.github.io/StreamX-Public/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="StreamX, a media player for Android TV and Google TV">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IPTV Player Setup Guide: Add Sources, TMDB, Subtitles, Trackers | StreamX">
+<meta name="twitter:description" content="Step-by-step StreamX setup for Android TV: add an M3U, Xtream Codes or Stalker/MAG source, EPG, a free TMDB key, OpenSubtitles and Trakt, Simkl or AniList trackers.">
+<meta name="twitter:image" content="https://varunmyneni.github.io/StreamX-Public/assets/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://varunmyneni.github.io/StreamX-Public/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://varunmyneni.github.io/StreamX-Public/index.html#guides"}, {"@type": "ListItem", "position": 3, "name": "Set up StreamX", "item": "https://varunmyneni.github.io/StreamX-Public/setup-guide-iptv-player.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "IPTV Player Setup Guide: Add Sources, TMDB, Subtitles, Trackers | StreamX", "url": "https://varunmyneni.github.io/StreamX-Public/setup-guide-iptv-player.html", "description": "Step-by-step StreamX setup for Android TV: add an M3U, Xtream Codes or Stalker/MAG source, EPG, a free TMDB key, OpenSubtitles and Trakt, Simkl or AniList trackers.", "isPartOf": {"@id": "https://varunmyneni.github.io/StreamX-Public/#site"}, "about": {"@id": "https://varunmyneni.github.io/StreamX-Public/#app"}, "inLanguage": "en", "dateModified": "2026-10-21"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "Set up the StreamX media player on Android TV", "description": "Step-by-step StreamX setup for Android TV: add an M3U, Xtream Codes or Stalker/MAG source, EPG, a free TMDB key, OpenSubtitles and Trakt, Simkl or AniList trackers.", "step": [{"@type": "HowToStep", "name": "Install the app", "text": "Install StreamX on your Android TV, Google TV or Fire TV."}, {"@type": "HowToStep", "name": "Add a source", "text": "Profile menu, Manage sources, then add an M3U link, Xtream Codes login or Stalker/MAG portal with your own details."}, {"@type": "HowToStep", "name": "Optional: add an EPG link", "text": "Paste your XMLTV guide link in the source form."}, {"@type": "HowToStep", "name": "Optional: add a TMDB key", "text": "Profile menu, TMDB (metadata), paste your own free key."}, {"@type": "HowToStep", "name": "Optional: sign in to OpenSubtitles", "text": "Profile menu, Subtitles account, enter your username, password and API key."}, {"@type": "HowToStep", "name": "Optional: link a tracker", "text": "Profile menu, Watch trackers, then link Trakt, Simkl or AniList."}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where do I get channels or a playlist?", "acceptedAnswer": {"@type": "Answer", "text": "StreamX is a media player only and includes no content. You add the playlist, Xtream login or portal details that you already have from your own provider."}}, {"@type": "Question", "name": "Do I need an account to use StreamX?", "acceptedAnswer": {"@type": "Answer", "text": "No. Signing in is optional and only needed for encrypted sync of your sources, watch history and settings across devices."}}, {"@type": "Question", "name": "Do I have to add a TMDB key?", "acceptedAnswer": {"@type": "Answer", "text": "No. Posters, cast and trailers work with shared access, but you can add your own free TMDB key so requests count against your account."}}, {"@type": "Question", "name": "Why does subtitle search ask for my own OpenSubtitles API key?", "acceptedAnswer": {"@type": "Answer", "text": "Subtitles use your own OpenSubtitles account and API key, saved for your profile only, so nothing is shared or paid through StreamX."}}, {"@type": "Question", "name": "Are the Trakt, Simkl and AniList trackers required?", "acceptedAnswer": {"@type": "Answer", "text": "No. They are optional and off until you link one. Once linked you can pause syncing at any time."}}]}</script>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #000; color: #e8e8f0; line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding: 8px 20px; border-bottom: 1px solid #1c1c28; background: rgba(5,5,10,.95); position: sticky; top: 0; z-index: 5; }
+  nav .brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 1.1rem; text-decoration: none; border: 0; }
+  nav .brand img { width: 34px; height: 34px; }
+  nav .links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+  nav .links a { color: #c9c4ff; text-decoration: none; font-weight: 600; font-size: .95rem; padding: 6px 0; }
+  nav .links a:hover { color: #fff; }
+  nav .links a.on { color: #fff; border-bottom: 2px solid #7c5cff; }
+  @media (max-width: 700px) { nav { justify-content: center; } }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 80px; }
+  .center { text-align: center; }
+  .logo { width: min(340px, 80%); height: auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 8px; }
+  h2 { font-size: 1.3rem; margin: 2.2em 0 .6em; padding-bottom: 6px; border-bottom: 1px solid #23233a; }
+  p.lead { color: #b4b4c8; max-width: 720px; margin: 0 auto 24px; }
+  .note { background: #12121c; border: 1px solid #2a2a3c; border-radius: 12px; padding: 12px 16px; max-width: 720px; margin: 0 auto 28px; color: #c8c8da; font-size: .95rem; text-align: left; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 36px; }
+  .btn { display: inline-block; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; background: #7c5cff; color: #fff; }
+  .btn.alt { background: #1b1b2a; color: #d8d4ff; border: 1px solid #34344a; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 14px; padding: 16px 18px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.05rem; color: #d8d4ff; }
+  .card ul { margin: 0; padding-left: 1.1em; color: #c8c8da; font-size: .95rem; }
+  .card li { margin: 4px 0; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  figure { margin: 0; }
+  figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid #1e1e2c; display: block; }
+  figcaption { color: #a8a8bd; font-size: .9rem; padding: 6px 2px 0; }
+  .telegram { text-align: center; margin-top: 36px; }
+  .telegram img { width: 200px; height: auto; border-radius: 12px; }
+  a { color: #9b8cff; }
+  footer { margin-top: 48px; color: #8888a0; font-size: .9rem; text-align: center; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+  .left p.lead, .left .note { margin-left: 0; margin-right: 0; max-width: 760px; }
+  .crumbs { color: #8888a0; font-size: .85rem; margin: 0 0 14px; }
+  .crumbs a { color: #9b8cff; text-decoration: none; }
+  .prose p, .prose li { color: #cfcfe0; }
+  .prose h2 { margin-top: 1.8em; }
+  .prose ol, .prose ul { padding-left: 1.3em; }
+  .steps li { margin: 8px 0; }
+  details { background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; color: #e8e8f0; }
+  details p { margin: 10px 0 2px; color: #cfcfe0; }
+  .pill { display: inline-block; background: #14141f; border: 1px solid #2a2a3c; color: #c9c4ff; border-radius: 999px; padding: 4px 12px; margin: 4px 6px 4px 0; font-size: .88rem; text-decoration: none; }
+  .guides a.gcard { display: block; background: #0d0d16; border: 1px solid #1e1e2e; border-radius: 14px; padding: 14px 18px; text-decoration: none; color: #e8e8f0; }
+  .guides a.gcard span { display: block; color: #a8a8bd; font-size: .9rem; font-weight: 400; margin-top: 4px; }
+  .guides a.gcard strong { color: #d8d4ff; }
+</style>
+</head>
+<body>
+<nav aria-label="Main"><a class="brand" href="index.html"><img src="assets/logo-icon.png" width="34" height="34" alt="">StreamX</a><div class="links"><a href="index.html">Home</a><a href="index.html#features">Features</a><a href="index.html#guides">Guides</a><a href="screenshots.html">Screenshots</a><a href="privacy-policy.html">Privacy</a><a href="delete-account.html">Delete data</a><a href="https://t.me/Stre4mX">Telegram</a><a href="https://github.com/varunmyneni/StreamX-Public/releases">Download</a></div></nav>
+<main>
+<div class="left prose">
+<p class="crumbs"><a href="index.html">Home</a> › <a href="index.html#guides">Guides</a> › Set up StreamX</p>
+<h1>Set up StreamX on your TV</h1>
+<p class="lead">Everything you need to get started: install the app, add your own sources, and switch on the optional extras (TMDB artwork, subtitles and watch-history trackers). Each step takes a minute or two.</p>
+<div class="note"><strong>Good to know:</strong> StreamX is a media player only. It does not provide any content, channels or streams. You connect the playlists and services you already have. Only step 2 is required; everything else is optional.</div>
+<div class="buttons"><a class="btn" href="https://github.com/varunmyneni/StreamX-Public/releases">Download the APK</a><a class="btn alt" href="https://t.me/Stre4mX">Ask on Telegram</a></div>
+
+<p><a class="pill" href="#install">1. Install</a><a class="pill" href="#source">2. Add a source</a><a class="pill" href="#epg">3. TV guide</a><a class="pill" href="#account">4. Account &amp; sync</a><a class="pill" href="#tmdb">5. TMDB</a><a class="pill" href="#subtitles">6. Subtitles</a><a class="pill" href="#trackers">7. Trackers</a><a class="pill" href="#profiles">8. Profiles &amp; PIN</a><a class="pill" href="#fixes">Troubleshooting</a></p>
+
+<h2 id="install">1. Install StreamX</h2>
+<ol class="steps">
+<li>Download the latest <strong>.apk</strong> from the <a href="https://github.com/varunmyneni/StreamX-Public/releases">Releases page</a>.</li>
+<li>Install it on your Android TV, Google TV or Fire TV (Android 6.0 or newer) using a downloader app, a USB drive or adb.</li>
+<li>Open StreamX from your apps row.</li>
+</ol>
+<p>Need more detail? See <a href="install-iptv-player-apk.html">how to install the StreamX APK</a>, including fixes for common install errors.</p>
+
+<h2 id="source">2. Add a source</h2>
+<p>A source is the playlist or login your provider gave you. Open the <strong>Profile menu</strong> (the person icon on the top bar), choose <strong>Manage sources</strong> and pick the source type. Fill in the fields and press <strong>Add Source &amp; Sync</strong>. StreamX connects, then loads your library.</p>
+<figure><img src="screenshots/web/add-source-v1.0.webp" width="960" height="540" alt="The Add source screen: M3U, Xtream, MAG portal or Jellyfin" loading="lazy" decoding="async"><figcaption>The Add source screen: M3U, Xtream, MAG portal or Jellyfin</figcaption></figure>
+<div class="cards" style="margin-top:16px">
+<div class="card"><h3>Xtream Codes</h3><ul><li><strong>Server URL</strong>, for example <code>http://provider.tv:8080</code></li><li><strong>Username</strong> and <strong>Password</strong></li><li>Guide data loads automatically when your provider supplies it</li></ul><p style="margin:8px 0 0"><a href="xtream-codes-player.html">Full Xtream Codes guide</a></p></div>
+<div class="card"><h3>M3U / M3U8 playlist</h3><ul><li><strong>M3U Playlist URL</strong></li><li>To combine playlists, paste several links separated by a space</li><li>Optional <strong>EPG URL</strong> for the TV guide</li></ul><p style="margin:8px 0 0"><a href="m3u-playlist-player.html">Full M3U guide</a></p></div>
+<div class="card"><h3>Stalker / MAG portal</h3><ul><li><strong>Portal URL</strong>, for example <code>http://portal.tv/c/</code></li><li><strong>MAC Address</strong> registered with your provider</li><li><em>Advanced</em> (only if your portal asks): Device ID, Device ID 2, Serial Number</li></ul><p style="margin:8px 0 0"><a href="stalker-mag-portal-player.html">Full portal guide</a></p></div>
+<div class="card"><h3>Jellyfin <em>(beta)</em></h3><ul><li><strong>Server URL</strong>, for example <code>http://192.168.1.10:8096</code></li><li>Your Jellyfin <strong>Username</strong> and <strong>Password</strong></li></ul></div>
+</div>
+<p><strong>Name your source</strong> if you like (optional). You can add several sources and use them side by side. To change or remove one later, go to Manage sources and select it.</p>
+<p><strong>Optional HTTP overrides:</strong> some providers need a custom <em>User-Agent</em> or <em>Referer</em>. Both fields are in the source form, under HTTP Overrides. Leave them empty unless your provider tells you otherwise.</p>
+
+<h2 id="epg">3. Add a TV guide (optional)</h2>
+<p>If your provider gave you an XMLTV link, paste it into the <strong>EPG URL (XMLTV)</strong> field of the source (several links are allowed). Xtream sources can leave it blank and use the guide that comes with the login. Then StreamX shows now and next, and the live mini player. See the <a href="epg-xmltv-guide.html">EPG guide</a>.</p>
+
+<h2 id="account">4. Sign in for sync (optional)</h2>
+<p>You can use StreamX without an account. Sign in only if you want your sources, watch history and settings to follow you to other TVs.</p>
+<ol class="steps">
+<li>Open the <strong>Profile menu</strong> and choose <strong>Sign in</strong>. Create an account with an email and password, or sign in to an existing one.</li>
+<li>Check your inbox and verify your email if StreamX asks.</li>
+<li>Turn on <strong>encrypted sync</strong> and enter your account password once. Your source logins, parental PINs, OpenSubtitles logins and settings are encrypted with a key that only your password can open.</li>
+</ol>
+<figure><img src="screenshots/web/sign-in-v1.0.webp" width="960" height="540" alt="The optional account sign-in screen" loading="lazy" decoding="async"><figcaption>The optional account sign-in screen</figcaption></figure>
+<p>To remove everything, use <strong>Profile menu → Delete Account</strong> or read <a href="delete-account.html">how to delete your account and data</a>.</p>
+
+<h2 id="tmdb">5. Add your own TMDB key (optional)</h2>
+<p>Posters, cast photos, trailers, ratings, Trending lists and suggestions come from The Movie Database. StreamX can use shared access, or your own free key so the requests count against your own account.</p>
+<ol class="steps">
+<li>Create a free account at <a href="https://www.themoviedb.org">themoviedb.org</a>.</li>
+<li>Open <strong>Settings → API</strong> on the TMDB website and request an API key.</li>
+<li>In StreamX, open the <strong>Profile menu → TMDB (metadata)</strong>.</li>
+<li>Paste the <strong>API Key</strong> (or the long <strong>API Read Access Token</strong>) and press Save. The row then reads "Using your own TMDB key".</li>
+</ol>
+<figure><img src="screenshots/web/tmdb-key-v1.0.webp" width="960" height="540" alt="The TMDB key screen in settings" loading="lazy" decoding="async"><figcaption>The TMDB key screen in settings</figcaption></figure>
+<p>Keep your key private. It is saved on your TV and never posted anywhere public.</p>
+
+<h2 id="subtitles">6. Set up subtitles (optional)</h2>
+<p>Subtitles that come with a video are listed in the player automatically. To search for more, StreamX uses <strong>your own</strong> OpenSubtitles account and your own free API key. It is saved for your profile only, so nothing is shared or paid through StreamX.</p>
+<ol class="steps">
+<li>Create a free account at <a href="https://www.opensubtitles.com">opensubtitles.com</a>.</li>
+<li>Open <a href="https://www.opensubtitles.com/consumers">opensubtitles.com/consumers</a>, create an API consumer and copy its <strong>API key</strong>.</li>
+<li>In StreamX, open the <strong>Profile menu → Subtitles account</strong>.</li>
+<li>Enter your <strong>username</strong>, <strong>password</strong> and the <strong>API key</strong>, then press Save.</li>
+<li>While watching, open the subtitle menu to pick a built-in track or search for one.</li>
+</ol>
+<figure><img src="screenshots/web/subtitles-account-v1.0.webp" width="960" height="540" alt="The OpenSubtitles account screen" loading="lazy" decoding="async"><figcaption>The OpenSubtitles account screen</figcaption></figure>
+
+<h2 id="trackers">7. Link a watch-history tracker (optional)</h2>
+<p>If you link <strong>Trakt</strong>, <strong>Simkl</strong> or <strong>AniList</strong>, movies and episodes you finish are added to your history there. Nothing is sent until you link one, and you can pause syncing at any time. Each service needs a free app of your own, whose Client ID (and sometimes a secret) you enter in StreamX. Credentials are saved encrypted for your profile.</p>
+<figure><img src="screenshots/web/watch-trackers-v1.0.webp" width="960" height="540" alt="The watch-history trackers screen: Trakt, Simkl and AniList" loading="lazy" decoding="async"><figcaption>The watch-history trackers screen: Trakt, Simkl and AniList</figcaption></figure>
+<div class="cards" style="margin-top:16px">
+<div class="card"><h3>Trakt</h3><ul><li>Movies and series</li><li>Create a free app at <a href="https://trakt.tv/oauth/applications">trakt.tv/oauth/applications</a> with the redirect URI <code>urn:ietf:wg:oauth:2.0:oob</code></li><li>Enter its <strong>Client ID</strong> and <strong>Client Secret</strong> in StreamX</li><li>StreamX shows a short code. Open the address shown on your phone, enter the code and approve. The TV finishes by itself</li></ul></div>
+<div class="card"><h3>Simkl</h3><ul><li>Movies, series and anime</li><li>Create a free app at <a href="https://simkl.com/settings/developer">simkl.com/settings/developer</a></li><li>Enter its <strong>Client ID</strong> in StreamX</li><li>Approve with the code shown on screen</li></ul></div>
+<div class="card"><h3>AniList</h3><ul><li>Anime</li><li>Create a free API client at <a href="https://anilist.co/settings/developer">anilist.co/settings/developer</a> with the redirect URL <code>https://anilist.co/api/v2/oauth/pin</code></li><li>Enter its <strong>ID</strong> and <strong>Secret</strong> in StreamX</li><li>Open the link shown on your phone, approve, then paste the code AniList shows into StreamX</li></ul></div>
+</div>
+<p>To stop sending history, open <strong>Profile menu → Watch trackers</strong>, pick the service and choose <strong>Pause syncing</strong>. Tip: the Google TV remote app on your phone can type into the text boxes.</p>
+
+<h2 id="profiles">8. Profiles, PIN lock and display</h2>
+<ul>
+<li><strong>Profiles:</strong> add separate viewers, each with their own favourites, Watch Later and Continue Watching.</li>
+<li><strong>Parental PIN:</strong> set a 4 to 8 digit PIN that is asked when a profile is opened, and hide categories you don't want shown.</li>
+<li><strong>Display &amp; tabs:</strong> choose which tabs and rows appear, and the startup page.</li>
+<li><strong>Accent colour, clock and weather</strong> can be changed under Appearance.</li>
+<li><strong>Network &amp; DNS</strong> and <strong>Remote buttons</strong> let you adjust the connection and what each remote key does.</li>
+</ul>
+<figure><img src="screenshots/web/profile-v1.0.webp" width="960" height="540" alt="The Profile menu: sources, account and settings" loading="lazy" decoding="async"><figcaption>The Profile menu: sources, account and settings</figcaption></figure>
+
+<h2 id="fixes">Troubleshooting</h2>
+<details><summary>"Server URL and Username are required" or the source won't add</summary><p>Check the address, username and password exactly as your provider gave them, including the port number. Make sure the TV is online, then try again.</p></details>
+<details><summary>My MAG portal says the MAC address isn't accepted</summary><p>The MAC must be registered with your provider first. Enter it as 00:1A:79:xx:xx:xx, and fill in Device ID or Serial Number under Advanced only if your provider asks for them.</p></details>
+<details><summary>Posters or cast are missing</summary><p>Add your own free TMDB key under Profile menu → TMDB (metadata). Then reopen the title.</p></details>
+<details><summary>Subtitle search doesn't work</summary><p>Check that the username, password and API key in Subtitles account are all from your own OpenSubtitles account, and that the API key comes from opensubtitles.com/consumers.</p></details>
+<details><summary>A tracker says the code didn't work</summary><p>Check the Client ID and secret, and that the redirect address on the service's developer page matches the one listed above.</p></details>
+<details><summary>Something else is wrong</summary><p>Post in the group linked to <a href="https://t.me/Stre4mX">t.me/Stre4mX</a> with your device, Android version, what you did and what happened. Please never post passwords or private links. The Profile menu also has an <strong>Error log</strong> you can read out.</p></details>
+
+<h2>Frequently asked questions</h2>
+<details><summary>Where do I get channels or a playlist?</summary><p>StreamX is a media player only and includes no content. You add the playlist, Xtream login or portal details that you already have from your own provider.</p></details>
+<details><summary>Do I need an account to use StreamX?</summary><p>No. Signing in is optional and only needed for encrypted sync of your sources, watch history and settings across devices.</p></details>
+<details><summary>Do I have to add a TMDB key?</summary><p>No. Posters, cast and trailers work with shared access, but you can add your own free TMDB key so requests count against your account.</p></details>
+<details><summary>Why does subtitle search ask for my own OpenSubtitles API key?</summary><p>Subtitles use your own OpenSubtitles account and API key, saved for your profile only, so nothing is shared or paid through StreamX.</p></details>
+<details><summary>Are the Trakt, Simkl and AniList trackers required?</summary><p>No. They are optional and off until you link one. Once linked you can pause syncing at any time.</p></details>
+
+<h2>More guides</h2>
+<div class="cards guides"><a class="gcard" href="iptv-player-android-tv.html"><strong>Media player for Android TV</strong><span>What StreamX does, and how it plays your own playlists on Android TV and Google TV.</span></a><a class="gcard" href="install-iptv-player-apk.html"><strong>Install the StreamX APK</strong><span>USB, Downloader or adb, plus fixes for common install errors.</span></a><a class="gcard" href="screenshots.html"><strong>Screenshots</strong><span>See the app in action.</span></a></div>
+</div>
+  <footer>
+    <div class="guides-links">Guides: <a href="iptv-player-android-tv.html">Media player for Android TV</a> · <a href="m3u-playlist-player.html">M3U playlist player</a> · <a href="xtream-codes-player.html">Xtream Codes player</a> · <a href="stalker-mag-portal-player.html">Stalker / MAG portal player</a> · <a href="epg-xmltv-guide.html">EPG / XMLTV TV guide</a> · <a href="install-iptv-player-apk.html">Install the StreamX APK</a></div><br>
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="delete-account.html">Delete your account and data</a> ·
+    <a href="license.html">Licence</a> ·
+    <a href="screenshots.html">Screenshots</a> ·
+    <a href="https://github.com/varunmyneni/StreamX-Public/releases">Releases</a><br>
+    Questions: <a href="mailto:5xstreamx@gmail.com">5xstreamx@gmail.com</a><br>
+    <strong>© 2026 StreamX. All rights reserved.</strong> StreamX is proprietary software, not open source. Copying, cloning, mirroring, redistributing or reverse engineering the app, its code, name, logo, artwork or these pages is not permitted. See the <a href="license.html">Licence</a>.<br>
+    StreamX is a media player only. It does not provide, host, index, bundle or resell any media, channels, streams or subscriptions. All product names, logos and brands that may appear in user-supplied content belong to their respective owners.<br>
+    This product uses the TMDB API but is not endorsed or certified by TMDB. Weather by Open-Meteo.
+  </footer>
+</main>
+</body>
+</html>

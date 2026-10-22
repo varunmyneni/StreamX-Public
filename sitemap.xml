@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>1.0</priority><image:image><image:loc>https://varunmyneni.github.io/StreamX-Public/screenshots/home-dashboard-v1.0.png</image:loc></image:image><image:image><image:loc>https://varunmyneni.github.io/StreamX-Public/screenshots/movie-detail-v1.0.png</image:loc></image:image><image:image><image:loc>https://varunmyneni.github.io/StreamX-Public/screenshots/series-detail-v1.0.png</image:loc></image:image><image:image><image:loc>https://varunmyneni.github.io/StreamX-Public/screenshots/trending-v1.0.png</image:loc></image:image></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/screenshots.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/iptv-player-android-tv.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/m3u-playlist-player.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/xtream-codes-player.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/stalker-mag-portal-player.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/epg-xmltv-guide.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/install-iptv-player-apk.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/privacy-policy.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/delete-account.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/license.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://varunmyneni.github.io/StreamX-Public/setup-guide-iptv-player.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+</urlset>
